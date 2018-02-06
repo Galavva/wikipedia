@@ -3,19 +3,24 @@
   padding-bottom: 20px;
 }
 
+#outerMain {
+  background-color: #fff;
+}
+
 #sidebar {
-  position: fixed;
   padding-left: 25px;
-  width: 200px;
   padding-top: 20px;
+  background-color: #F0F0F0;
 }
 #sidebar p {
   position: relative;
   left: 40px;
   top: 25px;
+  border-bottom: 0.5px solid gray;
 }
 
 #account {
+  position:relative;
   float:right;
   padding-right: 20px;
 }
@@ -24,27 +29,26 @@
   padding-left: 10px;
 }
 
+button {
+background: #ddd;
+cursor: pointer;
+}
+
 hr {
   position: relative;
   top: 10px;
   left:30px;
-  top
+  margin-bottom: : 10px;
 }
 
 a {
   color: #00008b;
 }
 
-hr {
-  margin-bottom: : 10px;
+footer {
+  margin-left: 300px;
 }
 
-#main {
-  position: relative;
-  top: 80px;
-  padding-right: 15px;
-  left: 220px;
-}
 
 #welcome {
   text-align: center;
@@ -54,10 +58,21 @@ hr {
 
 #sections {
   float: right;
+  padding-right: 50px;
+  padding-top: 20px;
 }
 
 #leftSection {
   position: ;
+}
+
+#fairy {
+  float : left;
+  padding-right: 30px;
+}
+
+.main-background {
+  background-color: #eee;
 }
 
 .panel-default > .panel-heading {
@@ -86,5 +101,5 @@ hr {
 
 .well{
   background-color: #eee;
-  max-width: 87%;
+  margin-right: 15px;
 }
