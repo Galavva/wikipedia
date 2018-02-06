@@ -1,0 +1,90 @@
+#logo {
+  width: 160px;
+  padding-bottom: 20px;
+}
+
+#sidebar {
+  position: fixed;
+  padding-left: 25px;
+  width: 200px;
+  padding-top: 20px;
+}
+#sidebar p {
+  position: relative;
+  left: 40px;
+  top: 25px;
+}
+
+#account {
+  float:right;
+  padding-right: 20px;
+}
+
+#account a {
+  padding-left: 10px;
+}
+
+hr {
+  position: relative;
+  top: 10px;
+  left:30px;
+  top
+}
+
+a {
+  color: #00008b;
+}
+
+hr {
+  margin-bottom: : 10px;
+}
+
+#main {
+  position: relative;
+  top: 80px;
+  padding-right: 15px;
+  left: 220px;
+}
+
+#welcome {
+  text-align: center;
+  float: left;
+  padding-left: 30px;
+}
+
+#sections {
+  float: right;
+}
+
+#leftSection {
+  position: ;
+}
+
+.panel-default > .panel-heading {
+  background-color: #CEF2E0;
+}
+
+.green-background {
+  background-color: #F5FFFA;
+}
+
+.blue-header .panel-default > .panel-heading {
+  background-color: #CEDFF2;
+}
+
+.blue-background {
+  background-color: #F5FAFF;
+}
+
+.purple-header .panel-default > .panel-heading {
+  background-color: #DDCEF2;
+}
+
+.purple-background {
+  background-color: #FAF5FF;
+}
+
+.well{
+  background-color: #eee;
+  max-width: 87%;
+}

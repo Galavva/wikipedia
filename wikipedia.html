@@ -5,19 +5,209 @@
 		<title>Wikipedia, the free encyclopedia</title>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div id="mainContent">
-			<p id="helloText">?</p>
-			<button id="clickButton" class="buttonStyle">click me</button>
-		</div>
-    
+		<!-- sidebar stuff -->
+			<div id="sidebar">
+				<div id="logo">
+					<a href="#">
+						<img src="Images/wikipediaLogo.png" alt="logo" id="logo">
+					</a>
+				</div>
+				<div id="navbar">
+					<ul style="list-style-type:none">
+            <li><a href="#">Main Page</a></li>
+            <li><a href="#">Contents</a></li>
+            <li><a href="#">Featured content</a></li>
+            <li><a href="#">Current Events</a></li>
+            <li><a href="#">Random Article</a></li>
+            <li><a href="#">Donate to Wikipedia</a></li>
+            <li><a href="#">Wikipedia Store</a></li>
+          </ul>
+          <p>Interaction</p><hr>
+          <ul style="list-style-type:none">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">About Wikipedia</a></li>
+            <li><a href="#">Community Portal</a></li>
+            <li><a href="#">Recent Changes</a></li>
+            <li><a href="#">Contact Page</a></li>
+          </ul>
+          <p>Tools</p><hr>
+          <ul style="list-style-type:none">
+            <li><a href="#">What links here</a></li>
+            <li><a href="#">Related Changes</a></li>
+            <li><a href="#">Upload File</a></li>
+            <li><a href="#">Special Pages</a></li>
+            <li><a href="#">Permanant Link</a></li>
+						<li><a href="#">Page Information</a></li>
+						<li><a href="#">Wikipedia Item</a></li>
+          </ul>
+          <p>Print/export</p><hr>
+          <ul style="list-style-type:none">
+            <li><a href="#">Create a book</a></li>
+            <li><a href="#">Download as PDF</a></li>
+            <li><a href="#">Printable Version</a></li>
+          </ul>
+          <p>In other projects</p><hr>
+          <ul style="list-style-type:none">
+            <li><a href="#">Wikimedia Commons</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+          </ul>
+          <p>Languages</p><hr>
+          <ul style="list-style-type:none">
+            <li><a href="#">language</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+						<li><a href="#">Blah Blah</a></li>
+          </ul>
+				</div>
+			</div>
+				<!-- Top right account stuff -->
+				<div id="account">
+					<p><span><i class="material-icons">person</i></span>Not Logged In
+					<a href="#">Talk</a>
+					<a href="#">Contributions</a>
+					<a href="#">Create Account</a>
+					<a href="#">Log In</a>
+				</p>
+				</div>
+					<div id="outerMain">
+					<div id="main">
+						<div class="well">
+							<div class="row">
+								<div id="welcome">
+									<h2>Welcome to <a href="#">Wikipedia</a>,</h2>
+									<p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit.</a></p>
+									<p><a href="#">5,565,446</a> articles in <a href="#">English</a></p>
+								</div>
+								<div id="sections">
+									<div class="col-md-6">
+										<ul>
+											<li><a href="#">Arts</a></li>
+											<li><a href="#">Biography</a></li>
+											<li><a href="#">Geography</a></li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul>
+											<li><a href="#">History</a></li>
+											<li><a href="#">Mathematics</a></li>
+											<li><a href="#">Science</a></li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul>
+											<li><a href="#">Society</a></li>
+											<li><a href="#">Technology</a></li>
+											<li><a href="#">All Portals</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Green Panel -->
+						<div class="row">
+							<div class="col-md-6">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4><b>From today's featured article</b></h4>
+									</div>
+									<div class="panel-body green-background">
+										<p><b><a href="/wiki/Grand_Duchess_Olga_Alexandrovna_of_Russia" title="Grand Duchess Olga Alexandrovna of Russia">Grand Duchess Olga Alexandrovna of Russia</a></b> (1882–1960) was the youngest child of Emperor <a href="#" title="Alexander III of Russia">Alexander III of Russia</a> and younger sister of Emperor <a href="#" title="Nicholas II">Nicholas II</a>. Her father died when she was 12, and her brother Nicholas became emperor. At 19 she married <a href="#" title="Duke Peter Alexandrovich of Oldenburg">Duke Peter Alexandrovich of Oldenburg</a>; their marriage was unconsummated and was annulled by the Emperor in October 1916. The following month Olga married cavalry officer <a href="#">Nikolai Kulikovsky</a>, with whom she had fallen in love several years before. During the First World War, the Grand Duchess served as an army nurse at the front and was awarded a medal for personal gallantry. At the downfall of the <a href="#" title="Romanov">Romanovs</a> in the <a href="#" title="Russian Revolution of 1917">Russian Revolution of 1917</a>, she fled to the <a href="#" title="Crimea">Crimea</a> with her husband and children, where they lived under the threat of assassination. After her brother and his family were <a href="#" title="Shooting of the Romanov family">shot by revolutionaries</a>, she and her family escaped to Denmark in February 1920. In exile, she was often sought out by <a href="#" title="Romanov impostors">Romanov impostors</a> who claimed to be her dead relatives. In 1948, feeling threatened by <a href="#" title="Joseph Stalin">Joseph Stalin</a>'s regime, she emigrated with her immediate family to <a href="#" title="Ontario">Ontario</a>, Canada. (<a href="#" title="Grand Duchess Olga Alexandrovna of Russia"><b>Full article...</b></a>)</p>
+										<div style="text-align: right;">
+											<ul style="list-style-type:none">
+												<li>Recently featured: <a href="#" title="White-breasted nuthatch">White-breasted nuthatch</a></li>
+												<li><a href="#" title="1998 NFC Championship Game">1998 NFC Championship Game</a></li>
+												<li><a href="#" title="Plunketts Creek (Loyalsock Creek tributary)">Plunketts Creek (Loyalsock Creek tributary)</a></li>
+												<div class="tfa-footer hlist noprint" style="text-align: right;">
+													<b><a href="#">Archive &#9642;</a>
+													<a href="#">By Email &#9642; </a>
+													<a href="#">More Featured Articles</a></b>
+											</ul>
+										</div>
+									</div>
+									<div class="panel-heading">
+										<h4>Did you know...</h4>
+									</div>
+									<div class="panel-body green-background">
+										<ul>
+											<li>... that <b><a href="/wiki/Humphrey_IV_of_Toron" title="Humphrey IV of Toron">Humphrey IV of Toron</a></b> married <a href="/wiki/Isabella_I_of_Jerusalem" title="Isabella I of Jerusalem">Isabella of Jerusalem</a> <i>(marriage ceremony pictured)</i> in <a href="/wiki/Kerak_Castle" title="Kerak Castle">Kerak Castle</a> in 1183, but <a href="/wiki/Siege_of_Kerak" title="Siege of Kerak">a siege</a> by <a href="/wiki/Saladin" title="Saladin">Saladin</a> disturbed the wedding?</li>
+											<li>... that <b><a href="/wiki/Felicia_echinata" title="Felicia echinata">prickly felicia</a></b> belongs to the <a href="/wiki/Asteraceae" title="Asteraceae">daisy family</a> and is found on sand dunes in the <a href="/wiki/Cape_Floristic_Region" title="Cape Floristic Region">Cape Floristic Region</a> of South Africa?</li>
+											<li>... that <b><a href="/wiki/Celia_M._Burleigh" title="Celia M. Burleigh">Celia M. Burleigh</a></b> became the first woman pastor ordained into the <a href="/wiki/Unitarian_Universalism" title="Unitarian Universalism">Unitarian ministry</a>?</li>
+											<li>... that an archaeological find identified as a 10th-century <a href="/wiki/Viking_Age" title="Viking Age">Viking</a> helmet has been alleged to actually be a <b><a href="/wiki/SSK_90_helmet" title="SSK 90 helmet">World War II <i>Luftwaffe</i> helmet</a></b>?</li>
+											<li>... that all of the proposals to honor <a href="/wiki/Michael_Jackson" title="Michael Jackson">Michael Jackson</a> at New York City's <b><a href="/wiki/Hoyt%E2%80%93Schermerhorn_Streets_(New_York_City_Subway)" title="Hoyt–Schermerhorn Streets (New York City Subway)">Hoyt–Schermerhorn Streets</a></b> subway station have been declined?</li>
+											<li>... that Chinese naval commander <b><a href="/wiki/Zhang_Wendan" title="Zhang Wendan">Zhang Wendan</a></b> exchanged information on pirate activity with the Japanese, in a rare occasion of military cooperation between the two countries?</li>
+											<li>... that the <b><a href="/wiki/Rahway_River_Parkway" title="Rahway River Parkway">Rahway River Parkway</a></b>, designed by <a href="/wiki/Olmsted_Brothers" title="Olmsted Brothers">Olmsted Brothers</a> in the 1920s, was a project of the newly-formed <a href="/wiki/Union_County,_New_Jersey" title="Union County, New Jersey">Union County</a> parks commission?</li>
+											<li>... that, according to <a href="/wiki/Louis_Mountbatten,_1st_Earl_Mountbatten_of_Burma" title="Louis Mountbatten, 1st Earl Mountbatten of Burma">Lord Mountbatten</a>, <a href="/wiki/Elizabeth_II" title="Elizabeth II">Queen Elizabeth II</a> planned to hit <a href="/wiki/Idi_Amin" title="Idi Amin">Idi Amin</a> with the <b><a href="/wiki/City_of_London_swords" title="City of London swords">Pearl Sword</a></b> if he came to her <a href="/wiki/Silver_jubilee" title="Silver jubilee">Silver Jubilee</a>?</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Blue Panel -->
+						<div class="col-md-6 blue-header">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4>In the news</h4>
+								</div>
+								<div class="panel-body blue-background">
+									<img class="image-float-right" src="img/Mohamed.jpg" alt="Eagle">
+									<p>The <a href="#">USS Constellation captured the French L'Insurgente</a> in a single-ship action between the frigates on 9 February 1799. The previous year, French <a href="#">privateering</a> attacks against American vessels had led to the undeclared Quasi-War. Four US naval squadrons were sent to the Caribbean with orders to seize armed French vessels and prevent attacks on American ships. The squadron under Commodore Thomas Truxtun was on assignment in the waters between Puerto Rico and Saint Kitts when his flagship Constellation, cruising independently, met and engaged L'Insurgente, commanded by <a href="#">Michel-Pierre Barreaut</a>. After chasing the French ship through a storm, Truxtun forced an engagement. The French frigate surrendered after 74 minutes with heavy casualties; the Americans sustained only a few casualties. <a href="#">L'Insurgente</a> was taken to Saint Kitts and commissioned into the United States Navy as USS Insurgent. The action was the first victory over an enemy <a href="#">warship</a> for the newly formed navy, and Truxtun was praised by the American government and public.</p>
+									<footer>Recently featured: <a href="#">The Good Terrorist</a> <a href="#">Johnson Creek (Willamette River)</a> <a href="#">Cliff Clinkscales</a></footer>
+									<footer><a href="#">Archive </a>-<a href="#"> By email </a>-<a href="#"> More featured articles...</a></footer>
+								</div>
+								<div class="panel-heading">
+									<h4>On this day...</h4>
+								</div>
+								<div class="panel-body blue-background">
+									<ul>
+										<li>...that <a href="#">Pamela Cunningham Copeland</a> (pictured) was honored by the Garden Club of America for her vision in preserving rare and endangered plants at Mount Cuba?</li>
+										<li>... that drawing the graphic novel diary Dendō helped Brittany <a href="#">Long Olsen</a> cope with "raw and emotional" moments on her LDS mission in Japan?</li>
+										<li>... that "Wär Gott nicht mit uns diese Zeit", a hymn by the Protestant reformer <a href="#">Martin Luther</a> based on Psalm 124, appears in the current Protestant hymnal only partly, within stanzas from a colleague's hymn?</li>
+										<li>... that an interactive exhibit about the life and work of <a href="#">David Hawkins</a> was called "Cultivate the Scientist in Every Child"?</li>
+										<li>... that at the establishment of Bahía Portete National Natural Park, <a href="#">Colombian president Juan Manuel Santos</a> said, "Biodiversity is to Colombia what oil is for the Arabs"?</li>
+										<li>... that <a href="#">Sophie Molineux</a> won the inaugural Betty Wilson Young Cricketer of the Year Award at the 2017 Allan Border Medal Ceremony?</li>
+										<li>... that historical comet observations in <a href="#">China</a> as far back as 12 BC have been used to study changes in the brightness of Halley's Comet?</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
 		<script>
 		var myButton = document.getElementById("clickButton");
 		var myText = document.getElementById("helloText");
