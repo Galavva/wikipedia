@@ -34,13 +34,6 @@ background: #ddd;
 cursor: pointer;
 }
 
-hr {
-  position: relative;
-  top: 10px;
-  left:30px;
-  margin-bottom: : 10px;
-}
-
 a {
   color: #00008b;
 }
@@ -62,9 +55,6 @@ footer {
   padding-top: 20px;
 }
 
-#leftSection {
-  position: ;
-}
 
 #fairy {
   float : left;
